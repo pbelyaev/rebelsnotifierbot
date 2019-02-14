@@ -1,9 +1,6 @@
 <?php
 
-require_once 'vendor/autoload.php';
-
-$dotenv = Dotenv\Dotenv::create(__DIR__);
-$dotenv->load();
+require_once 'loader.php';
 
 $bot = new \TelegramBot\Api\BotApi(getenv('REBELS_BOT_TOKEN'));
 
