@@ -1,0 +1,15 @@
+{
+    "name": "pbelyaev/rebelsnotifierbot",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pavel Belyaev",
+            "email": "ksyddd@gmail.com"
+        }
+    ],
+    "require": {
+        "telegram-bot/api": "^2.3",
+        "vlucas/phpdotenv": "^3.3"
+    }
+}
